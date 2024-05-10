@@ -1,0 +1,14 @@
+<script>
+    function calcularMedia(numeros) {
+    if (numeros.length === 0) {
+        return 0; // Retorna 0 se o array estiver vazio para evitar divisão por zero
+    }
+
+    var soma = 0;
+    for (var i = 0; i < numeros.length; i++) {
+        soma += numeros[i];
+    }
+
+    return soma / numeros.length;
+}
+</script>
